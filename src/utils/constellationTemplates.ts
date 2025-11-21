@@ -1,0 +1,120 @@
+import { Template } from './SentenceEngine';
+
+export const constellationTemplates: Template[] = [
+  {
+    "id": "constellation_view_primary_01",
+    "context": "constellation_view",
+    "role": "primary",
+    "weights": 4,
+    "text": "In this constellation view, only the relationships remain: lines of light connecting your planets where stories press against each other.",
+    "variables": []
+  },
+  {
+    "id": "constellation_view_primary_02",
+    "context": "constellation_view",
+    "role": "primary",
+    "weights": 3,
+    "text": "Here the spiral quiets, and the aspects glow—bridges of tension and harmony, sketching the private geometry of your chart.",
+    "variables": []
+  },
+  {
+    "id": "constellation_view_primary_03",
+    "context": "constellation_view",
+    "role": "primary",
+    "weights": 2,
+    "text": "Every highlighted line is an angle of conversation between planets: not fate, but a pattern of how different parts of you meet.",
+    "variables": []
+  },
+
+  // Constellation Aspect Primary Templates
+  {
+    "id": "constellation_aspect_primary_01",
+    "context": "constellation_aspect",
+    "role": "primary",
+    "weights": 4,
+    "text": "{{aspect.from.planet.name}} and {{aspect.to.planet.name}} meet in a {{aspect.type}}—a {{aspects_library[aspect.type].relationship_type}} that keeps energy moving between them.",
+    "variables": [
+      "aspect.from.planet.name",
+      "aspect.to.planet.name",
+      "aspect.type",
+      "aspects_library[aspect.type].relationship_type"
+    ]
+  },
+  {
+    "id": "constellation_aspect_primary_02",
+    "context": "constellation_aspect",
+    "role": "primary",
+    "weights": 3,
+    "text": "This {{aspect.type}} draws a line in {{aspect.color}}, asking {{aspect.from.planet.name}} and {{aspect.to.planet.name}} to negotiate how they share space.",
+    "variables": [
+      "aspect.type",
+      "aspect.color",
+      "aspect.from.planet.name",
+      "aspect.to.planet.name"
+    ]
+  },
+  {
+    "id": "constellation_aspect_primary_03",
+    "context": "constellation_aspect",
+    "role": "primary",
+    "weights": 3,
+    "text": "Between {{aspect.from.planet.name}} and {{aspect.to.planet.name}}, this {{aspect.type}} leans toward {{aspects_library[aspect.type].keywords.0}} and {{aspects_library[aspect.type].keywords.1}}.",
+    "variables": [
+      "aspect.from.planet.name",
+      "aspect.to.planet.name",
+      "aspect.type",
+      "aspects_library[aspect.type].keywords.0",
+      "aspects_library[aspect.type].keywords.1"
+    ]
+  },
+
+  // Constellation Aspect Cue Templates
+  {
+    "id": "constellation_aspect_cue_01",
+    "context": "constellation_aspect",
+    "role": "cue",
+    "weights": 4,
+    "text": "{{aspect.from.planet.name}} and {{aspect.to.planet.name}} meet in a {{aspect.type}}—a {{aspects_library[aspect.type].relationship_type}} that keeps energy moving between them.",
+    "variables": [
+      "aspect.from.planet.name",
+      "aspect.to.planet.name",
+      "aspect.type",
+      "aspects_library[aspect.type].relationship_type"
+    ]
+  },
+  {
+    "id": "constellation_aspect_cue_02_tension",
+    "context": "constellation_aspect",
+    "role": "cue",
+    "weights": 3,
+    "text": "This {{aspect.type}} draws a line in {{aspect.color}}, asking {{aspect.from.planet.name}} and {{aspect.to.planet.name}} to negotiate how they share space.",
+    "variables": [
+      "aspect.type",
+      "aspect.color",
+      "aspect.from.planet.name",
+      "aspect.to.planet.name"
+    ]
+  },
+  {
+    "id": "constellation_aspect_cue_03_keywords",
+    "context": "constellation_aspect",
+    "role": "cue",
+    "weights": 2,
+    "text": "Between {{aspect.from.planet.name}} and {{aspect.to.planet.name}}, this {{aspect.type}} leans toward {{aspects_library[aspect.type].keywords.0}} and {{aspects_library[aspect.type].keywords.1}}.",
+    "variables": [
+      "aspect.from.planet.name",
+      "aspect.to.planet.name",
+      "aspect.type",
+      "aspects_library[aspect.type].keywords.0",
+      "aspects_library[aspect.type].keywords.1"
+    ]
+  },
+  {
+    "id": "constellation_aspect_cue_04_question",
+    "context": "constellation_aspect",
+    "role": "cue",
+    "weights": 2,
+    "text": "What part of you feels like {{aspect.from.planet.name}} and {{aspect.to.planet.name}} trying to share the same sky?",
+    "variables": ["aspect.from.planet.name", "aspect.to.planet.name"]
+  }
+];

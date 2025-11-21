@@ -1,0 +1,83 @@
+import { Template } from './SentenceEngine';
+
+export const planetTemplates: Template[] = [
+  {
+    "id": "planet_focus_primary_01",
+    "context": "planet_focus",
+    "role": "primary",
+    "weights": 4,
+    "text": "Here, {{planet.archetype_figure_name}} moves through {{house.name}}, carrying {{planet.essence}} in the key of {{sign.name}}.",
+    "variables": [
+      "planet.archetype_figure_name",
+      "house.name",
+      "planet.essence",
+      "sign.name"
+    ]
+  },
+  {
+    "id": "planet_focus_primary_02",
+    "context": "planet_focus",
+    "role": "primary",
+    "weights": 3,
+    "text": "{{planet.name}} becomes {{planet.archetype_name}} inside {{house.name}}, filtered through {{sign.fusion_label}}.",
+    "variables": [
+      "planet.name",
+      "planet.archetype_name",
+      "house.name",
+      "sign.fusion_label"
+    ]
+  },
+  {
+    "id": "planet_focus_primary_03_visual",
+    "context": "planet_focus",
+    "role": "primary",
+    "weights": 2,
+    "text": "{{planet.archetype_figure_name}} learns to move as {{sign.visual_mappings.motion}} within the field of {{house.essence}}.",
+    "variables": [
+      "planet.archetype_figure_name",
+      "sign.visual_mappings.motion",
+      "house.essence"
+    ]
+  },
+
+  {
+    "id": "planet_focus_cue_01_feeling",
+    "context": "planet_focus",
+    "role": "cue",
+    "weights": 3,
+    "text": "The feeling here is {{planet.essence}} meeting {{house.essence}}.",
+    "variables": ["planet.essence", "house.essence"]
+  },
+  {
+    "id": "planet_focus_cue_02_element",
+    "context": "planet_focus",
+    "role": "cue",
+    "weights": 3,
+    "text": "{{sign.element}} sets the climate while {{planet.name}} explores {{house.name}}.",
+    "variables": ["sign.element", "planet.name", "house.name"]
+  },
+  {
+    "id": "planet_focus_cue_03_visual",
+    "context": "planet_focus",
+    "role": "cue",
+    "weights": 2,
+    "text": "Visually, imagine {{planet.visual_elements.0}} drifting across a scene like {{house.visual_elements.0}}.",
+    "variables": ["planet.visual_elements.0", "house.visual_elements.0"]
+  },
+  {
+    "id": "planet_focus_cue_04_question",
+    "context": "planet_focus",
+    "role": "cue",
+    "weights": 2,
+    "text": "What does {{planet.archetype_figure_name}} learn about {{house.essence}} when it wears the colors of {{sign.name}}?",
+    "variables": ["planet.archetype_figure_name", "house.essence", "sign.name"]
+  },
+  {
+    "id": "planet_focus_cue_05_trace",
+    "context": "planet_focus",
+    "role": "cue",
+    "weights": 1,
+    "text": "Trace {{planet.name}} here as a thread of {{planet.essence}} weaving through {{house.name}}.",
+    "variables": ["planet.name", "planet.essence", "house.name"]
+  }
+];

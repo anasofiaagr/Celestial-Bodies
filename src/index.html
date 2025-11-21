@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celestial Bodies</title>
+    <!-- Four-tier font system: Crimson Pro (poetic display) + Sora (headings) + Manrope (body) + Pixelify Sans (UI) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;600;700&family=Sora:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Suppress Three.js warnings before any modules load -->
+    <script>
+      (function() {
+        const originalWarn = console.warn;
+        const originalError = console.error;
+        
+        console.warn = function(...args) {
+          const msg = String(args[0] || '');
+          if (msg.includes('Three') || msg.includes('three') || msg.includes('WARNING: Multiple instances')) {
+            return;
+          }
+          originalWarn.apply(console, args);
+        };
+        
+        console.error = function(...args) {
+          const msg = String(args[0] || '');
+          if (msg.includes('Three') || msg.includes('three') || msg.includes('WARNING: Multiple instances')) {
+            return;
+          }
+          originalError.apply(console, args);
+        };
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/main.tsx"></script>
+  </body>
+</html>

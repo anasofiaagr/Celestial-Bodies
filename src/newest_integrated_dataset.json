@@ -1,0 +1,371 @@
+{
+  "data": {
+    "planets": [
+      {
+        "name": "Sun",
+        "glyph": "☉",
+        "archetype_name": "Core Self & Vital Expression",
+        "archetype_figure_name": "The Hero planet",
+        "essence": "vitality, core self",
+        "why": "central organizing principle of identity and purpose.",
+        "traditional_associations": [
+          { "culture": "Western", "association": "Vitality, ego, self-expression, the hero" },
+          { "culture": "Vedic", "association": "Soul, authority, the father (Surya)" },
+          { "culture": "Chinese", "association": "Yang energy, the active principle" }
+        ],
+        "visual_mappings": {
+          "shape": "halo",
+          "motion": "pulse",
+          "texture": "spark",
+          "palette": "light",
+          "rhythm": "pulse"
+        },
+        "fluid_qualities": [
+          "Radiating energy",
+          "Core essence",
+          "Illumination",
+          "Warmth",
+          "Centrality"
+        ],
+        "reflective_questions": [
+          "How does your inner light want to shine?",
+          "What energizes your core being?",
+          "Where do you feel most radiant?"
+        ],
+        "visual_elements": [
+          "Morphing warm gradients",
+          "Radiating patterns",
+          "Pulsing light forms",
+          "Fluid gold and amber movements"
+        ]
+      },
+      {
+        "name": "Moon",
+        "glyph": "☾",
+        "archetype_name": "Emotional Body & Inner Needs",
+        "archetype_figure_name": "The Mother planet",
+        "essence": "emotion, memory",
+        "why": "inner tide that holds instinct and feeling.",
+        "traditional_associations": [
+          { "culture": "Western", "association": "Emotions, intuition, the unconscious, the mother" },
+          { "culture": "Vedic", "association": "The mind, feelings, the public (Chandra)" }
+        ],
+        "visual_mappings": {
+          "shape": "orb",
+          "motion": "tide",
+          "texture": "liquid",
+          "palette": "water",
+          "rhythm": "tide"
+        },
+        "fluid_qualities": [
+          "Cyclical flow",
+          "Internal rhythms",
+          "Receptivity",
+          "Embodied memory",
+          "Intuitive knowing"
+        ],
+        "reflective_questions": [
+          "What is the rhythm of your inner tide today?",
+          "What does your intuition feel like, before it becomes a thought?",
+          "What memories are living in your body?"
+        ],
+        "visual_elements": [
+          "Soft, glowing light",
+          "Shifting pearlescent textures",
+          "Liquid silver forms",
+          "Ebbing and flowing patterns"
+        ]
+      },
+      {
+        "name": "Mercury",
+        "glyph": "☿",
+        "archetype_name": "Mind & Communication",
+        "archetype_figure_name": "The Messenger planet",
+        "essence": "language, thought",
+        "why": "messenger that connects symbols, minds, and meaning.",
+        "traditional_associations": [
+          { "culture": "Western", "association": "Communication, intellect, reason, the messenger (Hermes)" },
+          { "culture": "Vedic", "association": "Intelligence, speech, analytics (Budha)" }
+        ],
+        "visual_mappings": {
+          "shape": "glyph",
+          "motion": "oscillate",
+          "texture": "mirror_texture",
+          "palette": "air",
+          "rhythm": "strobe"
+        },
+        "fluid_qualities": [
+          "The bridge between worlds",
+          "Translator of symbols",
+          "Fluid thought",
+          "Adaptability",
+          "Curiosity"
+        ],
+        "reflective_questions": [
+          "What message needs to travel between different parts of your world?",
+          "What new language is needed for an old feeling?",
+          "How can you hold two truths at once?"
+        ],
+        "visual_elements": [
+          "Interwoven lines of light",
+          "Shifting geometric patterns",
+          "Liquid metal movements",
+          "Transparent, overlapping layers"
+        ]
+      },
+      {
+        "name": "Venus",
+        "glyph": "♀",
+        "archetype_name": "Attraction & Relational Harmony",
+        "archetype_figure_name": "The Lover planet",
+        "essence": "attraction, value",
+        "why": "principle of resonance, desire, beauty, and belonging.",
+        "traditional_associations": [
+          { "culture": "Western", "association": "Love, beauty, harmony, art, the lover (Aphrodite)" },
+          { "culture": "Vedic", "association": "Pleasure, beauty, sensuality (Shukra)" },
+          { "culture": "Mayan", "association": "Warfare, conquest (as morning star)" }
+        ],
+        "visual_mappings": {
+          "shape": "seed",
+          "motion": "flow",
+          "texture": "silk",
+          "palette": "earth",
+          "rhythm": "breath"
+        },
+        "fluid_qualities": [
+          "Relational energy",
+          "Attraction",
+          "Resonance",
+          "Aesthetic sense",
+          "Value creation"
+        ],
+        "reflective_questions": [
+          "What do you find beautiful that defies convention?",
+          "How do you create connection beyond traditional models?",
+          "What do you truly value, and how do you embody that value?"
+        ],
+        "visual_elements": [
+          "Harmonious color gradients",
+          "Symmetrical patterns that gently break",
+          "Soft, flowing forms",
+          "Copper and green palettes"
+        ]
+      },
+      {
+        "name": "Mars",
+        "glyph": "♂",
+        "archetype_name": "Directed Energy & Desire",
+        "archetype_figure_name": "The Warrior planet",
+        "essence": "will, action",
+        "why": "cutting, driving force that asserts motion.",
+        "traditional_associations": [
+          { "culture": "Western", "association": "Action, desire, aggression, the warrior (Ares)" },
+          { "culture": "Vedic", "association": "Energy, action, courage (Mangala)" }
+        ],
+        "visual_mappings": {
+          "shape": "flare",
+          "motion": "surge",
+          "texture": "ember",
+          "palette": "fire",
+          "rhythm": "surge_rhythm"
+        },
+        "fluid_qualities": [
+          "Focused energy",
+          "Catalytic impulse",
+          "Severing force",
+          "Will to act",
+          "Drive"
+        ],
+        "reflective_questions": [
+          "Where is your focused energy needed most right now?",
+          "What must be cut away for a new path to form?",
+          "How does the impulse to act feel in your body?"
+        ],
+        "visual_elements": [
+          "Sharp, radiating lines that soften",
+          "Glitching red-orange gradients",
+          "Emergent patterns",
+          "Focused points of intense light"
+        ]
+      },
+      {
+        "name": "Jupiter",
+        "glyph": "♃",
+        "archetype_name": "Expansion & Meaning",
+        "archetype_figure_name": "The Sage planet",
+        "essence": "expansion, belief",
+        "why": "principle of growth, hope, and possibility.",
+        "traditional_associations": [
+          { "culture": "Western", "association": "Expansion, belief, wisdom, abundance, the king (Zeus)" },
+          { "culture": "Vedic", "association": "Wisdom, knowledge, the guru (Guru/Bṛhaspati)" }
+        ],
+        "visual_mappings": {
+          "shape": "ray",
+          "motion": "expand",
+          "texture": "glow",
+          "palette": "light",
+          "rhythm": "breath"
+        },
+        "fluid_qualities": [
+          "Expanding awareness",
+          "Generosity",
+          "Meaning-making",
+          "Search for understanding"
+        ],
+        "reflective_questions": [
+          "What futures become possible if you expand beyond the probable?",
+          "What belief are you ready to outgrow?",
+          "Where can you bring more generosity into your world?"
+        ],
+        "visual_elements": [
+          "Expansive, breathing forms",
+          "Majestic, flowing patterns",
+          "Rich purple and gold palettes",
+          "Forms that grow and branch outwards"
+        ]
+      },
+      {
+        "name": "Saturn",
+        "glyph": "♄",
+        "archetype_name": "Structure & Mastery",
+        "archetype_figure_name": "The Elder planet",
+        "essence": "structure, boundary",
+        "why": "teacher of form, time, responsibility, and limit.",
+        "traditional_associations": [
+          { "culture": "Western", "association": "Structure, limits, discipline, time, the elder (Chronos)" },
+          { "culture": "Vedic", "association": "Discipline, karma, longevity, hardship (Shani)" }
+        ],
+        "visual_mappings": {
+          "shape": "pillar",
+          "motion": "march",
+          "texture": "stone",
+          "palette": "earth",
+          "rhythm": "march"
+        },
+        "fluid_qualities": [
+          "Defining form",
+          "Endurance",
+          "Integrity",
+          "Maturation process",
+          "Boundary setting"
+        ],
+        "reflective_questions": [
+          "What enduring structures are you building for yourself and your community?",
+          "What is your relationship with time and its limitations?",
+          "What boundaries are necessary for your becoming?"
+        ],
+        "visual_elements": [
+          "Architectural, geometric forms",
+          "Heavy, textured shapes",
+          "Dark, earthy tones",
+          "Slow, deliberate animations"
+        ]
+      },
+      {
+        "name": "Uranus",
+        "glyph": "♅",
+        "archetype_name": "Liberation & Shock",
+        "archetype_figure_name": "The Revolutionary planet",
+        "essence": "liberation, disruption",
+        "why": "force that shocks, awakens, and innovates.",
+        "traditional_associations": [
+          { "culture": "Western", "association": "Rebellion, innovation, disruption, the future" }
+        ],
+        "visual_mappings": {
+          "shape": "fracture",
+          "motion": "scatter",
+          "texture": "glitch",
+          "palette": "air",
+          "rhythm": "strobe"
+        },
+        "fluid_qualities": [
+          "Quantum leaps",
+          "Sudden insight",
+          "Deconstruction of norms",
+          "Awakening energy"
+        ],
+        "reflective_questions": [
+          "What system are you refusing to participate in today?",
+          "What sudden insight reveals a new way forward?",
+          "How can this disruption serve a more liberated collective?"
+        ],
+        "visual_elements": [
+          "Intentional glitches",
+          "Electric, unpredictable movements",
+          "Fractured symmetries",
+          "Flashing, stark light"
+        ]
+      },
+      {
+        "name": "Neptune",
+        "glyph": "♆",
+        "archetype_name": "Imagination & Spirit",
+        "archetype_figure_name": "The Mystic planet",
+        "essence": "dream, spirit",
+        "why": "dissolves reality into imagination and transcendence.",
+        "traditional_associations": [
+          { "culture": "Western", "association": "Dreams, illusion, spirituality, the mystic (Poseidon)" }
+        ],
+        "visual_mappings": {
+          "shape": "wave",
+          "motion": "drift",
+          "texture": "mist",
+          "palette": "water",
+          "rhythm": "drift_rhythm"
+        },
+        "fluid_qualities": [
+          "Dissolving boundaries",
+          "Imaginal realms",
+          "Collective unconscious",
+          "Poetic ambiguity"
+        ],
+        "reflective_questions": [
+          "Where do you end and the rest of the world begin?",
+          "What does your imagination offer as a space of refuge and resistance?",
+          "What if dissolving was a form of becoming?"
+        ],
+        "visual_elements": [
+          "Fluid, liquid motion",
+          "Blurred, indistinct forms",
+          "Translucent, layered visuals",
+          "Deep sea and nebular colors"
+        ]
+      },
+      {
+        "name": "Pluto",
+        "glyph": "♇",
+        "archetype_name": "Shadow & Rebirth",
+        "archetype_figure_name": "The Alchemist planet",
+        "essence": "shadow, rebirth",
+        "why": "underworld force of metamorphosis and psychological depth.",
+        "traditional_associations": [
+          { "culture": "Western", "association": "Transformation, power, death/rebirth, the underworld (Hades)" }
+        ],
+        "visual_mappings": {
+          "shape": "spiral",
+          "motion": "stillness",
+          "texture": "smoke",
+          "palette": "night",
+          "rhythm": "tide"
+        },
+        "fluid_qualities": [
+          "Metamorphosis",
+          "Revealing the hidden",
+          "Regenerative force",
+          "Deep psychological processes"
+        ],
+        "reflective_questions": [
+          "What old skin must be shed for a new one to grow?",
+          "What hidden truth is ready to be brought to the surface?",
+          "How can you reclaim power from systems that have tried to define you?"
+        ],
+        "visual_elements": [
+          "Forms that emerge from shadow",
+          "Dense, powerful central cores",
+          "Unfolding or shedding layers",
+          "Intense, dark color palettes with points of light"
+        ]
+      }
+    ]
+  }
+}

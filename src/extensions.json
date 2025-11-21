@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "chakrounanas.turbo-console-log",
+    "formulahendry.auto-rename-tag",
+    "eamodio.gitlens"
+  ]
+}

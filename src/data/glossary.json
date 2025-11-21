@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "title": "Celestial Bodies - Fluid Astrology Glossary",
+    "description": "A comprehensive glossary of all astrological terms, poetic phrases, and conceptual vocabulary used throughout the Celestial Bodies interface",
+    "version": "1.0.0",
+    "last_updated": "2024-11-18"
+  },
+  
+  "planets": [
+    {
+      "name": "Sun",
+      "archetype_name": "The Core Self",
+      "archetype_figure_name": "The Radiant One",
+      "essence": "Vital force, consciousness, creative power",
+      "keywords": ["identity", "vitality", "purpose", "authority"],
+      "user_definition": ""
+    },
+    {
+      "name": "Moon",
+      "archetype_name": "The Inner World",
+      "archetype_figure_name": "The Nurturer",
+      "essence": "Emotions, instinct, subconscious patterns",
+      "keywords": ["feelings", "memory", "comfort", "instinct"],
+      "user_definition": ""
+    },
+    {
+      "name": "Mercury",
+      "archetype_name": "The Messenger",
+      "archetype_figure_name": "The Communicator",
+      "essence": "Thought, communication, connection",
+      "keywords": ["intellect", "speech", "learning", "curiosity"],
+      "user_definition": ""
+    },
+    {
+      "name": "Venus",
+      "archetype_name": "The Aesthetic",
+      "archetype_figure_name": "The Lover",
+      "essence": "Beauty, love, harmony, values",
+      "keywords": ["love", "beauty", "pleasure", "relationship"],
+      "user_definition": ""
+    },
+    {
+      "name": "Mars",
+      "archetype_name": "The Drive",
+      "archetype_figure_name": "The Warrior",
+      "essence": "Action, desire, assertion, passion",
+      "keywords": ["energy", "courage", "conflict", "desire"],
+      "user_definition": ""
+    },
+    {
+      "name": "Jupiter",
+      "archetype_name": "The Expander",
+      "archetype_figure_name": "The Teacher",
+      "essence": "Growth, wisdom, optimism, abundance",
+      "keywords": ["expansion", "philosophy", "faith", "fortune"],
+      "user_definition": ""
+    },
+    {
+      "name": "Saturn",
+      "archetype_name": "The Boundary",
+      "archetype_figure_name": "The Elder",
+      "essence": "Structure, discipline, limitation, mastery",
+      "keywords": ["responsibility", "time", "maturity", "form"],
+      "user_definition": ""
+    },
+    {
+      "name": "Uranus",
+      "archetype_name": "The Awakener",
+      "archetype_figure_name": "The Revolutionary",
+      "essence": "Innovation, rebellion, breakthrough, freedom",
+      "keywords": ["change", "uniqueness", "awakening", "liberation"],
+      "user_definition": ""
+    },
+    {
+      "name": "Neptune",
+      "archetype_name": "The Dissolver",
+      "archetype_figure_name": "The Mystic",
+      "essence": "Imagination, spirituality, illusion, transcendence",
+      "keywords": ["dreams", "compassion", "unity", "mystery"],
+      "user_definition": ""
+    },
+    {
+      "name": "Pluto",
+      "archetype_name": "The Transformer",
+      "archetype_figure_name": "The Alchemist",
+      "essence": "Death, rebirth, power, deep transformation",
+      "keywords": ["regeneration", "intensity", "depth", "shadow"],
+      "user_definition": ""
+    }
+  ],
+
+  "zodiac_signs": [
+    {
+      "name": "Aries",
+      "archetype_name": "The Pioneer",
+      "fusion_label": "Seed of Flame",
+      "element": "Fire",
+      "modality": "Cardinal",
+      "polarity": "Yang",
+      "keywords": ["initiation", "courage", "independence", "action"],
+      "user_definition": ""
+    },
+    {
+      "name": "Taurus",
+      "archetype_name": "The Builder",
+      "fusion_label": "Body of Soil",
+      "element": "Earth",
+      "modality": "Fixed",
+      "polarity": "Yin",
+      "keywords": ["stability", "sensuality", "security", "patience"],
+      "user_definition": ""
+    },
+    {
+      "name": "Gemini",
+      "archetype_name": "The Messenger",
+      "fusion_label": "Breath of Stories",
+      "element": "Air",
+      "modality": "Mutable",
+      "polarity": "Yang",
+      "keywords": ["curiosity", "versatility", "communication", "duality"],
+      "user_definition": ""
+    },
+    {
+      "name": "Cancer",
+      "archetype_name": "The Nurturer",
+      "fusion_label": "Shell of Waters",
+      "element": "Water",
+      "modality": "Cardinal",
+      "polarity": "Yin",
+      "keywords": ["protection", "emotion", "home", "intuition"],
+      "user_definition": ""
+    },
+    {
+      "name": "Leo",
+      "archetype_name": "The Performer",
+      "fusion_label": "Eye of the Sun",
+      "element": "Fire",
+      "modality": "Fixed",
+      "polarity": "Yang",
+      "keywords": ["creativity", "generosity", "pride", "celebration"],
+      "user_definition": ""
+    },
+    {
+      "name": "Virgo",
+      "archetype_name": "The Craftsperson",
+      "fusion_label": "Hand of Healing",
+      "element": "Earth",
+      "modality": "Mutable",
+      "polarity": "Yin",
+      "keywords": ["service", "precision", "analysis", "refinement"],
+      "user_definition": ""
+    },
+    {
+      "name": "Libra",
+      "archetype_name": "The Diplomat",
+      "fusion_label": "Bridge of Winds",
+      "element": "Air",
+      "modality": "Cardinal",
+      "polarity": "Yang",
+      "keywords": ["balance", "justice", "partnership", "aesthetics"],
+      "user_definition": ""
+    },
+    {
+      "name": "Scorpio",
+      "archetype_name": "The Alchemist",
+      "fusion_label": "Root of Night",
+      "element": "Water",
+      "modality": "Fixed",
+      "polarity": "Yin",
+      "keywords": ["transformation", "depth", "intimacy", "power"],
+      "user_definition": ""
+    },
+    {
+      "name": "Sagittarius",
+      "archetype_name": "The Explorer",
+      "fusion_label": "Arrow of Dawn",
+      "element": "Fire",
+      "modality": "Mutable",
+      "polarity": "Yang",
+      "keywords": ["adventure", "philosophy", "optimism", "freedom"],
+      "user_definition": ""
+    },
+    {
+      "name": "Capricorn",
+      "archetype_name": "The Master",
+      "fusion_label": "Bone of Mountains",
+      "element": "Earth",
+      "modality": "Cardinal",
+      "polarity": "Yin",
+      "keywords": ["ambition", "discipline", "achievement", "structure"],
+      "user_definition": ""
+    },
+    {
+      "name": "Aquarius",
+      "archetype_name": "The Visionary",
+      "fusion_label": "Wave of Vision",
+      "element": "Air",
+      "modality": "Fixed",
+      "polarity": "Yang",
+      "keywords": ["innovation", "community", "idealism", "detachment"],
+      "user_definition": ""
+    },
+    {
+      "name": "Pisces",
+      "archetype_name": "The Mystic",
+      "fusion_label": "Tide of Dreams",
+      "element": "Water",
+      "modality": "Mutable",
+      "polarity": "Yin",
+      "keywords": ["compassion", "imagination", "dissolution", "unity"],
+      "user_definition": ""
+    }
+  ],
+
+  "houses": [
+    {
+      "number": 1,
+      "name": "House of Emergence & Self-Projection",
+      "traditional_name": "House of Self",
+      "essence": "Identity, self-expression, how you begin things",
+      "keywords": ["identity", "self", "beginnings", "appearance"],
+      "user_definition": ""
+    },
+    {
+      "number": 2,
+      "name": "House of Grounding & Material Flow",
+      "traditional_name": "House of Possessions",
+      "essence": "Values, resources, material security",
+      "keywords": ["values", "resources", "security", "stability"],
+      "user_definition": ""
+    },
+    {
+      "number": 3,
+      "name": "House of Mental Curiosity & Communication",
+      "traditional_name": "House of Communication",
+      "essence": "Thought, communication, short journeys",
+      "keywords": ["communication", "learning", "siblings", "curiosity"],
+      "user_definition": ""
+    },
+    {
+      "number": 4,
+      "name": "House of Inner Rooting & Emotional Foundation",
+      "traditional_name": "House of Home",
+      "essence": "Home, family, emotional foundation",
+      "keywords": ["home", "family", "roots", "foundation"],
+      "user_definition": ""
+    },
+    {
+      "number": 5,
+      "name": "House of Expressive Joy & Inner Child",
+      "traditional_name": "House of Pleasure",
+      "essence": "Creativity, joy, romance, self-expression",
+      "keywords": ["creativity", "pleasure", "romance", "children"],
+      "user_definition": ""
+    },
+    {
+      "number": 6,
+      "name": "House of Purposeful Work & Craft",
+      "traditional_name": "House of Health",
+      "essence": "Daily work, health, service, routine",
+      "keywords": ["work", "health", "service", "routine"],
+      "user_definition": ""
+    },
+    {
+      "number": 7,
+      "name": "House of Relational Harmony & Partnership",
+      "traditional_name": "House of Partnership",
+      "essence": "Relationships, partnerships, marriage",
+      "keywords": ["partnership", "marriage", "contracts", "others"],
+      "user_definition": ""
+    },
+    {
+      "number": 8,
+      "name": "House of Deep Transformation & Shared Resources",
+      "traditional_name": "House of Transformation",
+      "essence": "Death, rebirth, shared resources, intimacy",
+      "keywords": ["transformation", "intimacy", "shared resources", "mystery"],
+      "user_definition": ""
+    },
+    {
+      "number": 9,
+      "name": "House of Expansive Wisdom & Philosophy",
+      "traditional_name": "House of Philosophy",
+      "essence": "Higher learning, travel, philosophy, expansion",
+      "keywords": ["philosophy", "travel", "higher mind", "belief"],
+      "user_definition": ""
+    },
+    {
+      "number": 10,
+      "name": "House of Mastery & Public Achievement",
+      "traditional_name": "House of Career",
+      "essence": "Career, public life, legacy, achievement",
+      "keywords": ["career", "reputation", "achievement", "authority"],
+      "user_definition": ""
+    },
+    {
+      "number": 11,
+      "name": "House of Collective Vision & Innovation",
+      "traditional_name": "House of Friends",
+      "essence": "Community, friendship, ideals, innovation",
+      "keywords": ["community", "friends", "hopes", "collective"],
+      "user_definition": ""
+    },
+    {
+      "number": 12,
+      "name": "House of Spiritual Dissolving & Compassion",
+      "traditional_name": "House of Spirituality",
+      "essence": "Spirituality, the unconscious, transcendence",
+      "keywords": ["spirituality", "dissolution", "compassion", "hidden"],
+      "user_definition": ""
+    }
+  ],
+
+  "aspects": [
+    {
+      "name": "Conjunction",
+      "angle": 0,
+      "orb": 10,
+      "description": "Union, fusion, concentrated power",
+      "essence": "Two planets merging energies in the same space",
+      "keywords": ["unity", "intensity", "fusion", "beginning"],
+      "user_definition": ""
+    },
+    {
+      "name": "Sextile",
+      "angle": 60,
+      "orb": 6,
+      "description": "Harmony, opportunity, ease",
+      "essence": "Supportive, flowing connection between planets",
+      "keywords": ["opportunity", "talent", "cooperation", "ease"],
+      "user_definition": ""
+    },
+    {
+      "name": "Square",
+      "angle": 90,
+      "orb": 8,
+      "description": "Tension, challenge, activation",
+      "essence": "Dynamic friction requiring growth and action",
+      "keywords": ["challenge", "tension", "growth", "action"],
+      "user_definition": ""
+    },
+    {
+      "name": "Trine",
+      "angle": 120,
+      "orb": 8,
+      "description": "Flow, talent, balance",
+      "essence": "Effortless harmony and natural gifts",
+      "keywords": ["flow", "grace", "harmony", "gifts"],
+      "user_definition": ""
+    },
+    {
+      "name": "Opposition",
+      "angle": 180,
+      "orb": 10,
+      "description": "Polarity, confrontation, reflection",
+      "essence": "Awareness through contrast and mirroring",
+      "keywords": ["awareness", "balance", "polarity", "reflection"],
+      "user_definition": ""
+    }
+  ],
+
+  "view_modes": [
+    {
+      "name": "Spiral View",
+      "description": "Overview mode showing the full helical spiral structure with all 12 house layers",
+      "purpose": "See the holistic chart structure and navigate between houses",
+      "ui_elements": ["rotating spiral", "zodiac background", "poetic sentence (right side)"],
+      "user_definition": ""
+    },
+    {
+      "name": "House Layer View",
+      "description": "Focused view of a single house layer with its planets and zodiac sign",
+      "purpose": "Explore a specific house's themes and planetary placements",
+      "ui_elements": ["3D zodiac sign", "fusion label", "house sentence (top center)", "planet nodes"],
+      "user_definition": ""
+    },
+    {
+      "name": "Planet View",
+      "description": "Intimate view of a single planet with detailed interpretations",
+      "purpose": "Deep dive into a planet's archetypal meaning and placement",
+      "ui_elements": ["planet node", "1-3 poetic sentences (left column)", "archetype overlay"],
+      "user_definition": ""
+    },
+    {
+      "name": "Constellation View",
+      "description": "Aspect-focused view showing planetary connections as a constellation",
+      "purpose": "Visualize and explore the aspect patterns in the chart",
+      "ui_elements": ["aspect lines", "floating poetic phrases", "star nodes", "deep space background"],
+      "user_definition": ""
+    },
+    {
+      "name": "Flat View",
+      "description": "Top-down perspective of the spiral, flattened to show all houses at once",
+      "purpose": "See the chart from a mandala-like perspective",
+      "ui_elements": ["flattened spiral", "house colors", "zodiac wheel layout"],
+      "user_definition": ""
+    },
+    {
+      "name": "Funnel View",
+      "description": "Default vertical helical view with houses descending from top to bottom",
+      "purpose": "Navigate the chart as a journey from House 1 to House 12",
+      "ui_elements": ["3D spiral", "vertical layers", "camera movement"],
+      "user_definition": ""
+    }
+  ],
+
+  "interface_concepts": [
+    {
+      "term": "Fusion Label",
+      "traditional_equivalent": "Zodiac Sign",
+      "description": "Poetic name representing the blending of house and sign qualities",
+      "examples": ["Seed of Flame", "Body of Soil", "Breath of Stories"],
+      "user_definition": ""
+    },
+    {
+      "term": "Archetypal Figure",
+      "traditional_equivalent": "Planet",
+      "description": "The symbolic character embodying a planet's essence",
+      "examples": ["The Radiant One", "The Nurturer", "The Warrior"],
+      "user_definition": ""
+    },
+    {
+      "term": "House Field",
+      "traditional_equivalent": "House",
+      "description": "Life arena or domain where planetary energies express",
+      "examples": ["House of Emergence", "House of Deep Transformation"],
+      "user_definition": ""
+    },
+    {
+      "term": "Cusp",
+      "description": "The boundary or threshold between two houses/signs",
+      "context": "Planets near cusps blend qualities of adjacent houses",
+      "user_definition": ""
+    },
+    {
+      "term": "Orb",
+      "description": "The allowable degree range for an aspect to be considered active",
+      "context": "Different aspects have different orbs (e.g., conjunction: 10°, sextile: 6°)",
+      "user_definition": ""
+    },
+    {
+      "term": "Zipline",
+      "description": "Cinematic camera movement gliding through multiple house layers",
+      "context": "Used when navigating between non-adjacent houses",
+      "user_definition": ""
+    },
+    {
+      "term": "Star Cues",
+      "description": "Floating poetic phrases within each house layer",
+      "context": "Contextual sentences that change based on view mode",
+      "user_definition": ""
+    },
+    {
+      "term": "Fluid Astrology",
+      "description": "Non-deterministic, relational approach emphasizing archetypal fluidity over fixed meanings",
+      "philosophy": "Anti-essentialist, honors cultural origins, avoids prediction",
+      "user_definition": ""
+    }
+  ],
+
+  "technical_terms": [
+    {
+      "term": "Helical Spiral",
+      "description": "The 3D spiral structure with 12 layers representing the houses",
+      "technical_detail": "Grows from radius 2.5 to 5.5, height 26 units",
+      "user_definition": ""
+    },
+    {
+      "term": "Ecliptic Degree",
+      "description": "A planet's position measured in degrees around the 360° zodiac wheel",
+      "context": "Used to determine house placement and aspects",
+      "user_definition": ""
+    },
+    {
+      "term": "Modality",
+      "description": "Quality of action: Cardinal (initiating), Fixed (sustaining), or Mutable (adapting)",
+      "user_definition": ""
+    },
+    {
+      "term": "Polarity",
+      "description": "Yang (active, masculine) or Yin (receptive, feminine) energy",
+      "user_definition": ""
+    },
+    {
+      "term": "Element",
+      "description": "Fire (spirit), Earth (body), Air (mind), or Water (emotion)",
+      "user_definition": ""
+    },
+    {
+      "term": "Ascendant",
+      "description": "The zodiac sign rising on the eastern horizon at birth; marks the 1st house cusp",
+      "also_known_as": "Rising Sign",
+      "user_definition": ""
+    },
+    {
+      "term": "Natal Chart",
+      "description": "A map of planetary positions at the exact moment and location of birth",
+      "also_known_as": "Birth Chart",
+      "user_definition": ""
+    }
+  ],
+
+  "poetic_vocabulary": [
+    {
+      "word": "essence",
+      "usage": "Core quality or nature of a planet, sign, or house",
+      "user_definition": ""
+    },
+    {
+      "word": "embodying",
+      "usage": "Taking physical or energetic form; manifesting",
+      "user_definition": ""
+    },
+    {
+      "word": "archetype",
+      "usage": "Universal pattern or primordial image",
+      "user_definition": ""
+    },
+    {
+      "word": "weaving",
+      "usage": "Interlacing energies; creating patterns",
+      "user_definition": ""
+    },
+    {
+      "word": "emergence",
+      "usage": "Coming into being; arising",
+      "user_definition": ""
+    },
+    {
+      "word": "dissolving",
+      "usage": "Breaking down boundaries; transcending form",
+      "user_definition": ""
+    },
+    {
+      "word": "rooting",
+      "usage": "Establishing foundation; grounding",
+      "user_definition": ""
+    },
+    {
+      "word": "transmutation",
+      "usage": "Transformation from one state to another",
+      "user_definition": ""
+    },
+    {
+      "word": "radiance",
+      "usage": "Emanating light or energy outward",
+      "user_definition": ""
+    },
+    {
+      "word": "receptivity",
+      "usage": "Capacity to receive and absorb",
+      "user_definition": ""
+    }
+  ],
+
+  "user_notes": {
+    "instructions": "Add your own definitions, interpretations, or notes in the 'user_definition' fields above. This glossary is yours to personalize and expand.",
+    "future_features": [
+      "In-app glossary panel accessible via button",
+      "Hover tooltips showing glossary definitions",
+      "Search and filter functionality",
+      "Export/import custom definitions",
+      "Link glossary terms to related chart placements"
+    ]
+  }
+}
