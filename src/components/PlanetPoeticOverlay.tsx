@@ -6,6 +6,7 @@ import { generateSentences, type TokenData } from '../utils/SentenceEngine';
 import { SentenceBlock } from './SentenceBlock';
 import integratedDataset from '../data/newest_integrated_dataset';
 import type { EnrichedPlanet } from '../utils/ChartEnricher';
+import { HOUSE_COLORS } from './Spiral';
 
 interface PlanetPoeticOverlayProps {
   enrichedPlanet: EnrichedPlanet;
@@ -29,6 +30,7 @@ export default function PlanetPoeticOverlay({
   }
 
   const archetypeName = getPlanetArchetypeName(enrichedPlanet.planet.name);
+  const houseColor = HOUSE_COLORS[layerIndex];
 
   useEffect(() => {
     if (!enrichedPlanet) return;
@@ -103,14 +105,34 @@ export default function PlanetPoeticOverlay({
             style={{ overflow: 'visible' }} // Allow tooltips to overflow
           >
             <div className="relative space-y-6 text-center p-8" style={{ overflow: 'visible' }}>
-              {/* House Name Title */}
+              {/* House Name Title with Color */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.5, duration: 0.8 }}
-                className="text-white/90 text-xl tracking-wide drop-shadow-lg mb-6"
+                className="flex items-center justify-center gap-3 mb-6"
               >
-                {enrichedPlanet.house?.name || `House ${layerIndex + 1}`}
+                {/* Color Indicator Circle */}
+                <motion.div
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  transition={{ duration: 0.6, delay: 0.6 }}
+                  className="w-3 h-3 rounded-full"
+                  style={{
+                    backgroundColor: houseColor,
+                    boxShadow: `0 0 15px ${houseColor}80, 0 0 30px ${houseColor}40`,
+                  }}
+                />
+                {/* House Name */}
+                <div
+                  className="text-xl tracking-wide drop-shadow-lg"
+                  style={{
+                    color: houseColor,
+                    textShadow: `0 0 20px ${houseColor}60`,
+                  }}
+                >
+                  {enrichedPlanet.house?.name || `House ${layerIndex + 1}`}
+                </div>
               </motion.div>
 
               {/* Primary Sentence */}

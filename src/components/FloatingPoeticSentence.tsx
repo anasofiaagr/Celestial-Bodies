@@ -7,6 +7,8 @@ import type { EnrichedChart } from '../utils/ChartEnricher';
 import { generateSentence, type SentenceContext, type TokenData } from '../utils/SentenceEngine';
 import { SentenceBlock } from './SentenceBlock';
 import integratedDataset from '../data/newest_integrated_dataset';
+import { useGlossary } from '../contexts/GlossaryContext';
+import { getHouseName } from '../utils/fluidAstrologyMappings';
 
 interface FloatingPoeticSentenceProps {
   planetNames: string[];
@@ -26,6 +28,7 @@ export default function FloatingPoeticSentence({
   const [isExiting, setIsExiting] = useState(false);
   const [tokens, setTokens] = useState<TokenData[]>([]);
   const [highlightedElement, setHighlightedElement] = useState<string | null>(null);
+  const { glossaryData } = useGlossary();
 
   // Reset isExiting when visibility or focus changes
   useEffect(() => {
@@ -176,6 +179,16 @@ export default function FloatingPoeticSentence({
     return null;
   }
 
+  // Get house name and color for House Layer View
+  let houseName = '';
+  let houseColor = '';
+  if (focusedHouseIndex !== null) {
+    const glossaryHouses = glossaryData.houses as any[];
+    const glossaryHouse = glossaryHouses?.[focusedHouseIndex];
+    houseName = glossaryHouse?.name || getHouseName(focusedHouseIndex);
+    houseColor = HOUSE_COLORS[focusedHouseIndex];
+  }
+
   return (
     <AnimatePresence>
       {!isExiting && (
@@ -220,6 +233,38 @@ export default function FloatingPoeticSentence({
               >
                 {focusedHouseIndex === null ? '✦ Spiral View ✦' : '✦ House Layer View ✦'}
               </motion.div>
+
+              {/* House Name with Color (House View Only) */}
+              {focusedHouseIndex !== null && (
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.4, duration: 0.8 }}
+                  className="flex items-center justify-center gap-3 mb-4"
+                >
+                  {/* Color Indicator Circle */}
+                  <motion.div
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ duration: 0.6, delay: 0.5 }}
+                    className="w-3 h-3 rounded-full"
+                    style={{
+                      backgroundColor: houseColor,
+                      boxShadow: `0 0 15px ${houseColor}80, 0 0 30px ${houseColor}40`,
+                    }}
+                  />
+                  {/* House Name */}
+                  <div
+                    className="text-xl tracking-wide drop-shadow-lg"
+                    style={{
+                      color: houseColor,
+                      textShadow: `0 0 20px ${houseColor}60`,
+                    }}
+                  >
+                    {houseName}
+                  </div>
+                </motion.div>
+              )}
 
               {/* Sentence */}
               <motion.div

@@ -68,7 +68,7 @@ If you need to add environment variables (like API keys):
 ### Locally:
 Create `.env.local` file:
 ```env
-VITE_RAPIDAPI_KEY=67849484c7mshca0cd2e16dc5081p1f0c35jsn3b5dc991b1de
+VITE_RAPIDAPI_KEY=your-rapidapi-key-here
 ```
 
 **Note:** Currently the API key is hardcoded in `/utils/AstrologyApiClient.ts`. For production, consider moving it to environment variables.

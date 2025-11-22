@@ -61,6 +61,7 @@ export function SentenceBlock({ tokens, className = '', onVariableHover, animate
       <div className={`inline ${className}`}>
         {tokens.map((token, idx) => {
           const baseDelay = animateWords ? idx * wordDelay : 0;
+          const isHovered = hoveredToken === token.variablePath;
           
           if (!token.isVariable) {
             return animateWords ? (
@@ -90,9 +91,9 @@ export function SentenceBlock({ tokens, className = '', onVariableHover, animate
               }}
               className="inline cursor-help transition-all duration-200"
               style={{
-                color: token.color || '#9B5DE5',
-                textShadow: `0 0 12px ${token.color || '#9B5DE5'}40`,
-                fontWeight: 500,
+                color: isHovered ? (token.color || '#9B5DE5') : 'inherit',
+                textShadow: isHovered ? `0 0 12px ${token.color || '#9B5DE5'}40` : 'none',
+                fontWeight: isHovered ? 500 : 'inherit',
               }}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -112,9 +113,9 @@ export function SentenceBlock({ tokens, className = '', onVariableHover, animate
               }}
               className="inline cursor-help transition-all duration-200"
               style={{
-                color: token.color || '#9B5DE5',
-                textShadow: `0 0 12px ${token.color || '#9B5DE5'}40`,
-                fontWeight: 500,
+                color: isHovered ? (token.color || '#9B5DE5') : 'inherit',
+                textShadow: isHovered ? `0 0 12px ${token.color || '#9B5DE5'}40` : 'none',
+                fontWeight: isHovered ? 500 : 'inherit',
               }}
               onMouseEnter={(e) => handleMouseEnter(e, token.variablePath!)}
               onMouseLeave={handleMouseLeave}
